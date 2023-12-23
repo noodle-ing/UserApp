@@ -1,13 +1,19 @@
 using Users.Application.DTO;
 using Users.Application.Mapping;
 using Users.Application.Responses;
-using Users.Domain.Interfaces;
+using Users.Infrastructure.Data;
 
 namespace Users.Application.Services;
 
 public class UserService : IUserService
 {
     private readonly IUserRepository _repository;
+
+    public UserService(IUserRepository repository)
+    {
+        _repository = repository;
+    }
+
     public async Task<BaseApiResponse<IEnumerable<UserDto>>> GetAllAsync()
     {
         var users = await _repository.GetAsync();

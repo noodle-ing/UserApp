@@ -1,6 +1,5 @@
 using Microsoft.EntityFrameworkCore;
 using Users.Domain.Core.Entities;
-using Users.Domain.Interfaces;
 
 namespace Users.Infrastructure.Data;
 
@@ -17,6 +16,12 @@ public class UserRepository : IUserRepository
     {
         return await _context.Users.AsNoTracking().ToListAsync();
     }
+    
+    Task<long> IUserRepository.CreateUserAsync(User entity)
+    {
+        return CreateUserAsync(entity);
+    }
+     
 
     public async Task<User?> GetUserAsync(long id)
     {

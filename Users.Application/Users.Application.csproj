@@ -11,8 +11,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Users.Domain.Core\Users.Domain.Core.csproj" />
-      <ProjectReference Include="..\Users.Domain.Interfaces\Users.Domain.Interfaces.csproj" />
+      <ProjectReference Include="..\Users.Infrastructure.Data\Users.Infrastructure.Data.csproj" />
     </ItemGroup>
 
 </Project>
