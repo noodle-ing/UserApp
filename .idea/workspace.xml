@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="120aa811-f9f4-4681-9781-4eaaa42da1e7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Users.Application/ServiceRegistration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Users.Infrastructure.Data/Migrations/20231223184029_Inital.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Users.Infrastructure.Data/Migrations/20231223184029_Inital.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Users.Infrastructure.Data/Migrations/UsersContextModelSnapshot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/User.Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User.Api/User.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/User.Api/User.Api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User.Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/User.Api/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users.Application/Users.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Users.Application/Users.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users.Domain.Core/Users.Domain.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Users.Domain.Core/Users.Domain.Core.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users.Domain.Interfaces/Users.Domain.Interfaces.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Users.Domain.Interfaces/Users.Domain.Interfaces.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users.Infrastructure.Data/Users.Infrastructure.Data.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Users.Infrastructure.Data/Users.Infrastructure.Data.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users.Infrastructure.Data/UsersContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Users.Infrastructure.Data/UsersContext.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2ZxS6UP0mKkPDlCk2Ybb1mhdLmb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="120aa811-f9f4-4681-9781-4eaaa42da1e7" name="Changes" comment="" />
+      <created>1703362062736</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703362062736</updated>
+      <workItem from="1703362065222" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
