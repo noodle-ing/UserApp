@@ -12,7 +12,7 @@ using Users.Infrastructure.Data;
 namespace Users.Infrastructure.Data.Migrations
 {
     [DbContext(typeof(UsersContext))]
-    [Migration("20231223184029_Inital")]
+    [Migration("20231223201219_Inital")]
     partial class Inital
     {
         /// <inheritdoc />
