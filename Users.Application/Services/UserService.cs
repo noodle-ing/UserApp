@@ -18,7 +18,7 @@ public class UserService : IUserService
     {
         var users = await _repository.GetAsync();
         var usersDtos = users.Select(u => u.ToUserDto());
-        return new BaseApiResponse<IEnumerable<UserDto>>(usersDtos, "Complited");
+        return new BaseApiResponse<IEnumerable<UserDto>>(usersDtos, "Completed");
     }
 
     public async Task<BaseApiResponse<UserDto>> GetAsync(long id)

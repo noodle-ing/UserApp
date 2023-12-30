@@ -16,12 +16,6 @@ public class UserRepository : IUserRepository
     {
         return await _context.Users.AsNoTracking().ToListAsync();
     }
-    
-    Task<long> IUserRepository.CreateUserAsync(User entity)
-    {
-        return CreateUserAsync(entity);
-    }
-     
 
     public async Task<User?> GetUserAsync(long id)
     {
@@ -47,10 +41,7 @@ public class UserRepository : IUserRepository
     {
         User? user = await _context.Users.FindAsync(id);
         if (user == null)
-        {
             return false;
-        }
-
         _context.Users.Remove(user);
         await _context.SaveChangesAsync();
         return true;

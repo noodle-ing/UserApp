@@ -14,7 +14,7 @@ public static class UserMapping
     {
         return user == null ? null : new User
         {
-            Name = user.Name,
+            Name = user.FirsName,
             SurName = user.LastName,
             Age = user.Age,
             CreatedAt = DateTime.Now
@@ -26,7 +26,7 @@ public static class UserMapping
         return user == null ? null : new User
         {
             Id = user.Id,
-            Name = user.Name,
+            Name = user.FirsName,
             SurName = user.LastName,
             Age = user.Age,
             CreatedAt = DateTime.Now
