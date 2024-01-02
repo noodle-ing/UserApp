@@ -4,15 +4,14 @@ using Users.Application.Services;
 
 namespace User.Api.Controllers;
 
-public class UsersController : ControllerBase
-{
 [ApiController]
 [Route("api/[controller]")]
-public class UserController : ControllerBase
+public class UsersController : ControllerBase
 {
+
     private readonly IUserService _userService;
 
-    public UserController(IUserService userService)
+    public UsersController(IUserService userService)
     {
         _userService = userService;
     }
@@ -24,12 +23,12 @@ public class UserController : ControllerBase
         return Ok(result);
     }
 
-    [HttpGet("{id:long}")]
-    public async Task<IActionResult> Get([FromRoute] long id)
-    {
-        var result = await _userService.GetAsync(id);
-        return Ok();
-    }
+    // [HttpGet("{id:long}")]
+    // public async Task<IActionResult> Get([FromRoute] long id)
+    // {
+    //     var result = await _userService.GetAsync(id);
+    //     return Ok();
+    // }
 
     [HttpPost]
     public async Task<IActionResult> Create([FromBody]CreateUserDto dto)
@@ -52,5 +51,5 @@ public class UserController : ControllerBase
         return Ok(result);
     }
     
-}
+
 }

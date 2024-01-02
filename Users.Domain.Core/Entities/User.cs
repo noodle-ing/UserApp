@@ -1,6 +1,6 @@
 using Users.Domain.Core.Common;
 
-namespace Users.Domain.Core.Entities; // здесь будут хранится все сущности которые  должны быть в проекте
+namespace Users.Domain.Core.Entities; 
 
 public class User : BaseEntity
 {

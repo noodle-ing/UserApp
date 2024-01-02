@@ -10,7 +10,7 @@ public class UsersContext : DbContext
 
     public UsersContext(DbContextOptions options) : base(options)
     {
-        AppContext.SetSwitch("Npgsql.EnableLegacyTimesTampBehavior", true);
+        AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
         AppContext.SetSwitch("Npgsql.DisableDateTimeInfinityConversions", true);
     }
 }
